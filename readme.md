@@ -10,7 +10,7 @@
 
 # 🎉 News
 
-- [ ] [2024.04.07] 🎯 Plan to release an introduction to the technical details of AI-Creator!
+- [ ] [2024.04.07] 🎯 Plan to release the technical details of AI-Creator!
 - [ ] [2024.04.07] 🎯 Plan to release more implementation code, supporting all the demo video types showcased!
 - [ ] [2024.04.07] 🎯 Plan to release more interesting demo videos made by AI-Creator!
 - [x] [2024.03.31] 📢 Releasing the implementation code of AI-Creator!
