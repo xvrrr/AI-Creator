@@ -256,7 +256,7 @@ Original Stand-up Comedy Segment
 Stand-up Comedy Adaptation
 </td>
 <td align="center" width="50%">
-<a href=""><img src="assets/talk_show_original_cover.png" width="100%"></a>
+<a href="https://www.bilibili.com/audio/au4765690/"><img src="assets/crosstalk_original_cover.png" width="100%"></a>
 Original Chinese Crosstalk Segment
 </td>
 </tr>
