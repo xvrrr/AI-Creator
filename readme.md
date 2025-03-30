@@ -1,7 +1,7 @@
 <h1 align='center'>🚀 AI-Creator: Automated Video Editing with LLM Agents</h1>
 
 <div align='center'>
-    <a href=''><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
+    <a href='https://space.bilibili.com/3546868449544308'><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
     <a href=''><img src='https://badges.aleen42.com/src/youtube.svg' /></a>&nbsp;
     <img src="https://badges.pufler.dev/visits/hkuds/ai-creator?style=flat-square&logo=github">&nbsp;
     <img src='https://img.shields.io/github/stars/hkuds/ai-creator?color=green&style=social' />
@@ -10,8 +10,9 @@
 
 # 🎉 News
 
-- [ ] [2024.04.07] 🎯 Plan to release more implementation details, supporting all the demo video types showcased!
-- [ ] [2024.04.04] 🎯 Plan to release more interesting demo videos made by AI-Creator!
+- [ ] [2024.04.07] 🎯 Plan to release an introduction to the technical details of AI-Creator!
+- [ ] [2024.04.07] 🎯 Plan to release more implementation code, supporting all the demo video types showcased!
+- [ ] [2024.04.07] 🎯 Plan to release more interesting demo videos made by AI-Creator!
 - [x] [2024.03.31] 📢 Releasing the implementation code of AI-Creator!
 - [x] [2025.03.31] 📢 Releasing the first demo videos! Including Movie Edits, Meme Videos, AI Music Videos, English Talk Show to Chinese Crosstalk Conversion, AI-Generated TV Drama Clips, and Tech News Updates
 
@@ -20,7 +21,7 @@ We have made videos of six distinct types using our AI-Creator, including:
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://www.bilibili.com/video/BV1AV411S7yc/?spm_id_from=333.337.search-card.all.click&vd_source=13182b3a133b27042e1f14577e85d60f"><img src="assets/spiderman_cover.png" width="100%"></a>
+<a href="https://www.bilibili.com/video/BV1C9Z6Y3ESo/"><img src="assets/spiderman_cover.png" width="100%"></a>
 Movie Edits
 </td>
 <td align="center" width="33%">
@@ -38,11 +39,11 @@ Music Videos
 Verbal Comedy Arts
 </td>
 <td align="center" width="33%">
-<a href=""><img src="assets/joylife_cover.png" width="100%"></a>
+<a href="https://www.bilibili.com/video/BV1TmZ6YjEvV/"><img src="assets/joylife_cover.png" width="100%"></a>
 TV Drama
 </td>
 <td align="center" width="33%">
-<a href=""><img src="assets/openai_news_cover.png" width="100%"></a>
+<a href="https://www.bilibili.com/video/BV12mZ6YLEqW/"><img src="assets/openai_news_cover.png" width="100%"></a>
 News
 </td>
 </tr>
@@ -58,7 +59,7 @@ Ever dreamed of creating stunning movie edits that captivate your audience? With
 [Lingxuan write a paragraph introducing what kind of works AI-Creator has done to make a movie edits (e.g. recognizing BGM rythm, video content indexing and retrieval, storyboard writing)]
 
 ### 1.1 *Spiderman*
-<a href='https://www.bilibili.com/video/BV1AV411S7yc/?spm_id_from=333.337.search-card.all.click&vd_source=13182b3a133b27042e1f14577e85d60f' target='_blank'><img src='assets/spiderman_cover.png' width=60%/></a>
+<a href='https://www.bilibili.com/video/BV1C9Z6Y3ESo/' target='_blank'><img src='assets/spiderman_cover.png' width=60%/></a>
 
 **Key Features:**
 - Perfect sync between visuals and background music rhythm
@@ -73,8 +74,8 @@ Begin with Gwen with blonde hair sitting at a dining table in front of a window,
 
 ### 1.2 *Interstella*
 
-<a href='https://www.bilibili.com/video/BV1AV411S7yc/?spm_id_from=333.337.search-card.all.click&vd_source=13182b3a133b27042e1f14577e85d60f' target='_blank'><img src='assets/interstella_cover_love.png' width=45%/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='https://www.bilibili.com/video/BV1AV411S7yc/?spm_id_from=333.337.search-card.all.click&vd_source=13182b3a133b27042e1f14577e85d60f' target='_blank'><img src='assets/interstella_cover.png' width=45%/></a>
+<a href='https://www.bilibili.com/video/BV1yQZ6YkEkw/' target='_blank'><img src='assets/interstella_cover_love.png' width=45%/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href='https://www.bilibili.com/video/BV1koZ6YuEeL/' target='_blank'><img src='assets/interstella_cover.png' width=45%/></a>
 
 **Key Features:**
 - For the same input video, edit different styles by adapting your prompts
@@ -92,7 +93,7 @@ Celebrate humanity's courage in space exploration. Include scenes featuring spac
 ```
 
 ### 1.3 *Nezha*
-<a href='https://www.bilibili.com/video/BV1AV411S7yc/?spm_id_from=333.337.search-card.all.click&vd_source=13182b3a133b27042e1f14577e85d60f' target='_blank'><img src='assets/nezha_cover.png' width=60%/></a>
+<a href='https://www.bilibili.com/video/BV1NQZ6YCEPH/' target='_blank'><img src='assets/nezha_cover.png' width=60%/></a>
 
 **Key Features:**
 - Capturing scences of conflicts and battals
@@ -103,7 +104,7 @@ Capture more scenes of conflicts and battles between Nezha and Shen Gongbao (bla
 ```
 
 ### 1.4 *Titanic*
-<a href='https://www.bilibili.com/video/BV1AV411S7yc/?spm_id_from=333.337.search-card.all.click&vd_source=13182b3a133b27042e1f14577e85d60f' target='_blank'><img src='assets/titanic_cover.png' width=60%/></a>
+<a href='https://www.bilibili.com/video/BV12mZ6YLEXJ/' target='_blank'><img src='assets/titanic_cover.png' width=60%/></a>
 
 **Key Features:**
 - Understanding of romantic scenes
@@ -272,7 +273,7 @@ Want to bring your favorite novels to life? AI-Creator transforms written narrat
 - Transforming novel narratives into visual storytelling by adapting descriptive text into cinematic scenes
 - Automated scene matching that pairs textual descriptions with appropriate visual elements, ensuring narrative coherence
 
-<a href=""><img src="assets/joylife_cover.png" width="60%"></a>
+<a href="https://www.bilibili.com/video/BV1TmZ6YjEvV/"><img src="assets/joylife_cover.png" width="60%"></a>
 
 We used AI-Creator to generate a video adaptation of the opening chapters from *Joy of Life*. Our agents analyzed the novel's text and automatically created a compelling video sequence by intelligently selecting and arranging relevant scenes from the TV series.
 
@@ -297,7 +298,7 @@ Want to create engaging tech news videos? AI-Creator helps transform complex tec
 <table>
 <tr>
 <td align="center" width="50%">
-<a href=""><img src="assets/openai_news_cover.png" width="100%"></a>
+<a href="https://www.bilibili.com/video/BV12mZ6YLEqW/"><img src="assets/openai_news_cover.png" width="100%"></a>
 Tech News made by AI-Creator
 </td>
 <td align="center" width="50%">
@@ -316,7 +317,7 @@ Original Tech Report
 <table>
 <tr>
 <td align="center" width="50%">
-<a href=""><img src="assets/dune_news_cover.png" width="100%"></a>
+<a href="https://www.bilibili.com/video/BV1m1Z6Y2Erb/"><img src="assets/dune_news_cover.png" width="100%"></a>
 News About <i>Dune</i>
 </td>
 <td align="center" width="50%">
