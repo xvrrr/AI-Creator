@@ -334,12 +334,24 @@ Original Interview with <i>Dune</i> Cast
 
 # Acknowledgements
 
+We would like to express our deepest gratitude to the numerous individuals and organizations that have made AI-Creator possible. This project stands on the shoulders of giants, benefiting from the collective wisdom of the open-source community and the groundbreaking work of AI researchers worldwide.
 
+First and foremost, we are indebted to the open-source community and AI service providers whose tools and technologies form the foundation of our work:
 
-# Framework of AI-Creator
+[list of libraries, packages, projects, tools, api providers]
 
-[First a fancy framework plot]
-Then a short explanation on the framework, without specific technical details.
+Our work has been significantly enriched by the creative contributions of content creators across various platforms:
+- The talented creators behind the original video content we used for testing and demonstration
+- The comedy artists whose work inspired our cross-cultural adaptations
+- The filmmakers and production teams behind the movies and TV shows featured in our demos
+- The content creators who have shared their knowledge and insights about video editing techniques
+
+All content used in our demonstrations is for research purposes only. We deeply respect the intellectual property rights of all content creators and welcome any concerns or feedback regarding content usage.
+
+<!-- # Framework of AI-Creator
+
+[First a framework plot]
+Then a short explanation on the framework, without specific technical details. -->
 
 # Usage
 [Hengji write instruction for users to run through several simplest demos.]
