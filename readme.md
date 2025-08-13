@@ -184,6 +184,21 @@ Please describe the type of video you would like to produce:
 ## 1. 🎬 Agentic Video Editing
 Ever dreamed of creating stunning video edits that captivate your audience? With Agentic-AIGC, you can transform your favorite video clips into breathtaking montages that tell your unique story, complete with perfectly synchronized music and transitions.
 
+In **video production and editing**, finding visual information is crucial, as it allows for better alignment with music, audio, or text. Agentic AIGC extracts useful visual information from videos, and here we use VideoRAG to index and caption videos of unlimited length. You can configure your settings in `videoragcontent.py`
+
+```
+class VideoRAG:
+    working_dir: str = field(
+        default_factory=lambda: f"./videorag_cache_{datetime.now().strftime('%Y-%m-%d-%H:%M:%S')}"
+    )
+    
+    # video
+    threads_for_split: int = 10
+    video_segment_length: int = 30 # 30 seconds
+    rough_num_frames_per_segment: int = 10 # 5 frames
+```
+
+
 ### 1.1 Agentic Movie Edits
 
 🚀 **Technical Details**
