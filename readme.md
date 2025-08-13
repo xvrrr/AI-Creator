@@ -192,7 +192,6 @@ Ever dreamed of creating stunning video edits that captivate your audience? With
 - Automatically assists with storyboard query design through video content based on user-provided ideas.
 - Automatically complete the editing and integration of the video.
 
-**Beat-synced editing**
 In beat-synced video editing, cuts and transitions align with the music's rhythm. We also enhance the narrative through visual storytelling by featuring high-energy visuals during musical climaxes.
 In the beat synchronization module, we load .mp3 audio files using librosa and calculate RMS (Root Mean Square) energy to identify rhythmic patterns. The system finds rhythm points by detecting peaks in the energy signal above a configurable threshold, with options to filter out points that are too close together temporally (since viewers may not prefer excessive transitions at the beginning of a video). The video transition times and spectrogram with detected rhythm points are sent to `story_editor.py`, enabling the agent to determine which transitions require high-energy frames.
 You can configure your preferences in`music_filter.py`:
