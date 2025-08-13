@@ -184,7 +184,7 @@ Please describe the type of video you would like to produce:
 ## 1. 🎬 Agentic Video Editing
 Ever dreamed of creating stunning video edits that captivate your audience? With Agentic-AIGC, you can transform your favorite video clips into breathtaking montages that tell your unique story, complete with perfectly synchronized music and transitions.
 
-In **video production and editing**, finding visual information is crucial, as it allows for better alignment with music, audio, or text. Agentic AIGC extracts useful visual information from videos, and here we use VideoRAG to index and caption videos of unlimited length. You can configure your settings in `videoragcontent.py`
+In **video production and editing**, finding visual information is crucial, as it allows for better alignment with music, audio, or text. Agentic-AIGC extracts useful visual information from videos, and here we use VideoRAG to index and caption videos of unlimited length. You can configure your settings in `videoragcontent.py`
 
 ```
 class VideoRAG:
@@ -197,7 +197,7 @@ class VideoRAG:
     video_segment_length: int = 30 # 30 seconds
     rough_num_frames_per_segment: int = 10 # 5 frames
 ```
-Creating videos with Agentic AIGC requires aligning with the user's ideas, which is a key step. First, the user inputs a query about their video idea, and Agentic AIGC performs a more granular query decomposition of the user's idea. This results in several sub-queries, each of which can match a video clip in the material library, enabling video creation. When using the Movie Editing feature, the storyboard agent `story_editor.py` percept the available visual material, allowing for more precise generation and utilization of each sub-query.
+Creating videos with Agentic-AIGC requires aligning with the user's ideas, which is a key step. First, the user inputs a query about their video idea, and Agentic-AIGC performs a more granular query decomposition of the user's idea. This results in several sub-queries, each of which can match a video clip in the material library, enabling video creation. When using the Movie Editing feature, the storyboard agent `story_editor.py` percept the available visual material, allowing for more precise generation and utilization of each sub-query.
 
 In the final stage of video production, the duration of each shot may vary. The video editor agent `vid_editor.py` performs fine-grained visual editing based on each retrieved video segment by comparing the video content with the corresponding sub-queries. It selects the moments that best match the visual content with the lowest redundancy for use.
 
