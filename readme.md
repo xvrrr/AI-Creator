@@ -192,6 +192,24 @@ Ever dreamed of creating stunning video edits that captivate your audience? With
 - Automatically assists with storyboard query design through video content based on user-provided ideas.
 - Automatically complete the editing and integration of the video.
 
+**Beat-synced editing**
+In beat-synced video editing, cuts and transitions align with the music's rhythm. We also enhance the narrative through visual storytelling by featuring high-energy visuals during musical climaxes.
+In the beat synchronization module, we load .mp3 audio files using librosa and calculate RMS (Root Mean Square) energy to identify rhythmic patterns. The system finds rhythm points by detecting peaks in the energy signal above a configurable threshold, with options to filter out points that are too close together temporally (since viewers may not prefer excessive transitions at the beginning of a video). The video transition times and spectrogram with detected rhythm points are sent to `story_editor.py`, enabling the agent to determine which transitions require high-energy frames.
+You can configure your preferences in`music_filter.py`:
+```
+    # Define mask ranges - times in seconds where you don't want to detect rhythm points
+    mask_ranges = [(0, 5)]
+    
+    # Detect rhythm points
+    rhythm_data = agent.detect_rhythm_points(
+        energy_threshold=0.4,
+        min_interval=3.0,
+        smoothing_window=5,
+        mask_ranges=mask_ranges
+    )
+```
+
+
 #### 1.1.1 *Spider-Man: Across the Spider-Verse*
 <a href='https://www.bilibili.com/video/BV1C9Z6Y3ESo/' target='_blank'><img src='assets/spiderman_cover.png' width=60%/></a>
 
