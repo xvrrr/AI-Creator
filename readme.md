@@ -260,12 +260,11 @@ Each "recipe" below corresponds to a specific video type you can create with Age
 
 1.  **Prepare Source Material:** Place your source video clips in a directory (e.g., `dataset/user_video/`).
 2.  **Prepare Music (Optional for beat-sync):** Place your background music file (e.g., `.mp3`) in your project.
-3.  **Configure Input:** Edit `Agentic-AIGC/environment/config/rhythm_agent.yml`. Set `video_source_dir` to your video folder path. (Optional: Set `music_path` for beat-sync).
-4.  **Run the Tool:** Execute `python main.py`.
-5.  **Select Type:** When prompted, choose `Rhythm-Based Editing`.
-6.  **Provide Prompt:** Enter a detailed description of the story/feel you want (e.g., "Action scenes featuring Spider-Gwen...").
-7.  **(Optional) Adjust Beat Sync:** Modify parameters in `music_filter.py` (thresholds, masks) if needed.
-8.  **Wait:** The system will process, analyze videos, detect beats (if applicable), retrieve relevant clips, and generate the final video.
+3.  **Run the Tool:** Execute `python main.py`.
+4.  **Select Type:** When prompted, input type `eg. Rhythm-Based Editing`.
+5.  **Provide Prompt:** Enter a detailed description of the story/feel you want (e.g., "Action scenes featuring Spider-Gwen...").
+6.  **(Optional) Adjust Beat Sync:** Modify parameters in `music_filter.py` (thresholds, masks) if needed.
+7.  **Wait:** The system will process, analyze videos, detect beats, retrieve visual relevant clips, and generate the final video.
 
 ### 📖 Novel-to-Screen Adaptation
 
@@ -274,13 +273,12 @@ Each "recipe" below corresponds to a specific video type you can create with Age
 **Steps:**
 
 1.  **Prepare Source Material:** Place your source video clips in a directory (e.g., `dataset/user_video/`). Place your novel `.txt` file in the project.
-2.  **(Optional) Prepare Voice Sample:** Place a short `.wav` file (e.g., `ava_16k.wav`) for voice cloning in `dataset/`.
-3.  **(Optional) Prepare Style File:** Create a `present_style.txt` file describing the desired commentary tone.
-4.  **Configure Input:** Edit `Agentic-AIGC/environment/config/comm_agent.yml`. Set `video_source_dir`, `novel_path`, `voice_sample_path` (if used), `style_file_path` (if used).
-5.  **Run the Tool:** Execute `python main.py`.
-6.  **Select Type:** When prompted, choose `Summary of Comment Types`.
-7.  **Provide Prompt:** Enter a prompt for the commentary script (e.g., "Write fluent commentary script with 1500 words.").
-8.  **Wait:** The system will generate the script, split it, synthesize audio, match scenes, and produce the video.
+2.  **(Optional) Prepare Voice Sample:** Place a short `.wav` file (e.g., `ava_16k.wav`) for voice cloning in `dataset/video_edit/voice_data/`.
+3.  **(Optional) Prepare Style File:** Customize or input `dataset/video_edit/writing_data/present_style.txt` file describing the desired commentary tone.
+4.  **Run the Tool:** Execute `python main.py`.
+5.  **Select Type:** When prompted, input type `eg. Novel-to-Screen Commentary`.
+6.  **Provide Prompt:** Enter a prompt for the commentary script (e.g., "Write fluent commentary script with 1500 words.").
+7.  **Wait:** The system will generate the script, split it, synthesize audio, match scenes, and produce the video.
 
 ### 📰 News Summary
 
@@ -289,13 +287,12 @@ Each "recipe" below corresponds to a specific video type you can create with Age
 **Steps:**
 
 1.  **Prepare Source Material:** Place your source video/audio file in a directory (e.g., `dataset/user_video/`).
-2.  **(Optional) Prepare Voice Sample:** Place a short `.wav` file for voice cloning.
-3.  **(Optional) Prepare Style File:** Create a `present_style.txt` file for the summary tone.
-4.  **Configure Input:** Edit `Agentic-AIGC/environment/config/news_agent.yml`. Set `source_path`, `voice_sample_path` (if used), `style_file_path` (if used).
-5.  **Run the Tool:** Execute `python main.py`.
-6.  **Select Type:** When prompted, choose `Summary of News`.
-7.  **Provide Prompt:** Enter a prompt for the summary (e.g., "Short tech news, colloquial expression within 250 words...").
-8.  **Wait:** The system will transcribe, summarize, synthesize audio, match clips, and generate the video.
+2.  **(Optional) Prepare Voice Sample:** Place a short `.wav` file (e.g., `ava_16k.wav`) for voice cloning in `dataset/video_edit/voice_data/`.
+3.  **(Optional) Prepare Style File:** Customize or input `dataset/video_edit/writing_data/present_style.txt` file for the summary tone.
+4.  **Run the Tool:** Execute `python main.py`.
+5.  **Select Type:** When prompted, input type `eg. Summary of News`.
+6.  **Provide Prompt:** Enter a prompt for the summary (e.g., "Short tech news, colloquial expression within 250 words...").
+7.  **Wait:** The system will transcribe, summarize, synthesize audio, match clips, and generate the video.
 
 ### 😂 Meme Video
 
@@ -389,7 +386,7 @@ After setup and configuration:
 
 1.  Activate your Conda environment: `conda activate aicreator`.
 2.  Run the main script from the project root: `python main.py`.
-3.  Follow the on-screen prompts to select the video type and provide any required input.
+3.  Follow the on-terminal prompts to select the video type and provide any required input.
 
 ---
 
