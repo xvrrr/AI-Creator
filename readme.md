@@ -41,7 +41,6 @@ This guide will walk you through setting up and using Agentic-AIGC to create var
     *   [😂 Meme Video](#-meme-video)
     *   [🎵 Music Video (SVC)](#-music-video-svc)
     *   [🎭 Cross-Culture Comedy](#-cross-culture-comedy)
-    *   [🧠 Video Generation (from Scratch)](#-video-generation-from-scratch)
 3.  [📋 Configuration Details](#-configuration-details)
     *   [Input Configuration](#input-configuration)
     *   [Character Image for Visual Retrieval Enhancement](#character-image-for-visual-retrieval-enhancement)
@@ -334,17 +333,6 @@ Each "recipe" below corresponds to a specific video type you can create with Age
 6.  **Provide Prompt:** Enter a prompt for adapting the script (e.g., "Generate a Chinese crosstalk script...").
 7.  **Wait:** The system will adapt the script, synthesize voices (CosyVoice), add effects, and prepare for video editing (integrates with Movie Edit pipeline).
 
-### 🧠 Video Generation (from Scratch)
-
-**Goal:** Generate a completely new video based on a text description, potentially using AI-generated imagery (conceptual, details may vary).
-
-**Steps:**
-
-1.  **Configure Input:** Edit the relevant configuration file for this feature (e.g., `Agentic-AIGC/environment/config/generation_agent.yml` - check code for exact file). Define the video description and requirements.
-2.  **Run the Tool:** Execute `python main.py`.
-3.  **Select Type:** When prompted, choose the appropriate generation option (e.g., `Video Generation`).
-4.  **Provide Prompt:** Enter a detailed description of the video you want (e.g., "Restore the novel's plot in Ghibli style...").
-5.  **Wait:** The system will generate shot descriptions, maintain consistency, and assemble the final video using integrated tools.
 
 ---
 
