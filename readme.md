@@ -25,7 +25,7 @@
 
 # 🍳 Cookbook: Getting Started with Agentic-AIGC
 
-This guide will walk you through setting up and using Agentic-AIGC to create various types of AI-generated videos.
+This guide will walk you through setting up and using Agentic-AIGC to create various types of AI-created videos.
 
 ## 🧾 Table of Contents
 
